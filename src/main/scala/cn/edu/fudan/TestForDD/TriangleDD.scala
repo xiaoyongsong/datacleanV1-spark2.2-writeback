@@ -138,7 +138,6 @@ object TriangleDD {
     var newdirty = dirty
     var newtotal = total
 
-    println("---------------dirty--------"+dirty+"-----------total-- ------"+total)
 
     if(dirty<(total*0.01*total)) {  //如何脏数据占比太小，则另结果为0.01，避免比重难以表达，甚至消失。
       newdirty=2
